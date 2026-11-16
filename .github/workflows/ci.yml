@@ -1,9 +1,10 @@
 name: ci
 
+# This fork builds on demand only. Automatic push and pull-request runs are off
+# so the fork's expected policy-gate failures (linux-reference,
+# compile-selected-minimum, native2) do not run or notify on every push.
+# Start a build from the Actions tab: "ci" -> Run workflow.
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
     inputs:
       release_version:

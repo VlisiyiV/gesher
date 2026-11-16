@@ -1,4 +1,6 @@
 # Copyright (C) 2026 The Gesher Authors; SPDX-License-Identifier: Apache-2.0
+# This fork (gesher-zh-cn) publishes its own releases, so every update URL and
+# the redirect allow-list name this repository rather than gesher-runtime/gesher.
 # Dot-source safe: definitions only. The control panel runs network work in a
 # separate runspace; reading preferences or a version never loads the transport.
 
@@ -47,8 +49,8 @@ function Assert-GesherUpdateRelease([object] $Release) {
     $tagVersion = ConvertTo-GesherStableVersion $Release.Tag -AllowTagPrefix
     if (-not $version -or $version -cne $tagVersion) { throw 'Invalid Gesher release version.' }
     $assetName = "gesher-setup-$version.exe"
-    $releaseUrl = "https://github.com/gesher-runtime/gesher/releases/tag/$($Release.Tag)"
-    $downloadUrl = "https://github.com/gesher-runtime/gesher/releases/download/$($Release.Tag)/$assetName"
+    $releaseUrl = "https://github.com/VlisiyiV/gesher-zh-cn/releases/tag/$($Release.Tag)"
+    $downloadUrl = "https://github.com/VlisiyiV/gesher-zh-cn/releases/download/$($Release.Tag)/$assetName"
     if ($Release.AssetName -isnot [string] -or $Release.Url -isnot [string] -or $Release.DownloadUrl -isnot [string] -or
         $Release.AssetName -cne $assetName -or $Release.Url -cne $releaseUrl -or $Release.DownloadUrl -cne $downloadUrl) {
         throw 'The release does not contain the expected official Gesher installer.'
@@ -117,7 +119,7 @@ using System.Threading;
 
 namespace Gesher.Updates {
     public static class Transport {
-        const string Latest = "https://api.github.com/repos/gesher-runtime/gesher/releases/latest";
+        const string Latest = "https://api.github.com/repos/VlisiyiV/gesher-zh-cn/releases/latest";
         const int JsonLimit = 1024 * 1024;
 
         static HttpClient CreateClient() {
@@ -143,7 +145,7 @@ namespace Gesher.Updates {
             }
             string host = uri.DnsSafeHost;
             if (host == "github.com") {
-                if (!uri.AbsolutePath.StartsWith("/gesher-runtime/gesher/releases/download/", StringComparison.Ordinal) || uri.Query.Length != 0)
+                if (!uri.AbsolutePath.StartsWith("/VlisiyiV/gesher-zh-cn/releases/download/", StringComparison.Ordinal) || uri.Query.Length != 0)
                     throw new InvalidDataException("The installer URL is not in the official repository.");
             } else if (host != "release-assets.githubusercontent.com" &&
                        host != "objects.githubusercontent.com" &&
