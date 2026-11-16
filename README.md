@@ -112,6 +112,22 @@ ninja -C out
 [Apache License 2.0](LICENSE)，与 AOSP 相同。参见
 [决策 0001](docs/decisions/0001-license.md)。
 
+## 关于 CI
+
+本 fork 的 CI 只做产品相关的构建与打包：`build`、`framework`、`graphics`、
+`angle`、`arm64`、`boot-image`、`media`、`package`、`e2e`。
+
+上游有三个**溯源闸门**作业——`compile-selected-minimum`、`linux-reference`、
+`native2`——断言"本工作流必须运行在 `gesher-runtime/gesher`、且由上游维护者
+账号触发"（见 `tools/toolchain/coherent_tcp_context.py` 与
+`tools/net-dns/payload.py`）。fork 无法满足这个条件；而把断言改成"从环境变量
+读取期望值"只会让它变成"变量等于它自己"的空检查。所以这里的处理是：
+**闸门代码一行不改，只把这三个作业显式限定到上游仓库**——在本 fork 中显示为
+`skipped`，在上游行为完全不变。
+
+连带 `supplier-correlation`、`windows`、`test` 也会跳过（它们依赖上述作业的
+产物）。产品的构建与安装包产出不受影响。
+
 ## 相关链接
 
 - 上游项目：[gesher-runtime/gesher](https://github.com/gesher-runtime/gesher)

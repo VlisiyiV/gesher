@@ -1,10 +1,9 @@
 name: ci
 
-# This fork builds on demand only. Automatic push and pull-request runs are off
-# so the fork's expected policy-gate failures (linux-reference,
-# compile-selected-minimum, native2) do not run or notify on every push.
-# Start a build from the Actions tab: "ci" -> Run workflow.
 on:
+  push:
+    branches: [main]
+  pull_request:
   workflow_dispatch:
     inputs:
       release_version:
@@ -644,6 +643,10 @@ jobs:
   # The native2 track's NDK test programs (shim extras, platform dlopen,
   # popular NDK libraries' self-tests): .github/workflows/native2.yml.
   native2:
+    # Its DNS supplier step (tools/net-dns/payload.py) refuses to run outside
+    # the canonical repository, and the guard sits inside the build helper
+    # rather than in a step of its own, so the job is scoped as a whole.
+    if: github.repository == 'gesher-runtime/gesher'
     needs: [artifact-preflight]
     uses: ./.github/workflows/native2.yml
 
@@ -2032,6 +2035,10 @@ jobs:
 
   # Current selected TCP role; historical canonical red remains separately preserved.
   compile:
+    # Same provenance gate as linux-reference (coherent_tcp_context.py, and the
+    # policy self-tests of the next step), so it is scoped to the canonical
+    # repository too.
+    if: github.repository == 'gesher-runtime/gesher'
     needs: [source-identity]
     name: compile-${{ matrix.supplier }}
     strategy:
@@ -2162,6 +2169,14 @@ jobs:
           if-no-files-found: error
           retention-days: 14
   linux-reference:
+    # Provenance gate for the canonical repository: the job's first step
+    # (tools/toolchain/coherent_tcp_context.py) asserts this workflow runs in
+    # gesher-runtime/gesher under its maintainer's account. A fork cannot
+    # satisfy it, and rewriting the assertion to read the identity from the
+    # environment would make it compare a value with itself, so the gate stays
+    # untouched and is scoped here instead: skipped in a fork, unchanged
+    # upstream. Jobs that need this one are skipped with it.
+    if: github.repository == 'gesher-runtime/gesher'
     needs: [source-identity]
     env:
       GESHER_COHERENT_TCP_AUTHORIZED_SOURCE: ${{ needs.source-identity.outputs.source }}
