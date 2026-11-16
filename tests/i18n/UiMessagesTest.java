@@ -12,9 +12,16 @@ public class UiMessagesTest {
         equal("en", UiMessages.language("ar-SA,fr-FR"));
         equal("en", UiMessages.language(null));
         equal("en", UiMessages.language("hebrew,xx"));
+        equal("zh", UiMessages.language("zh-CN,en-US"));
+        equal("zh", UiMessages.language(" ZH_hans_cn "));
+        equal("zh", UiMessages.language("ja-JP,zh-TW"));
+        equal("en", UiMessages.language("zhx,en-US"));
         equal(true, UiMessages.isRtl("iw-IL"));
         equal(false, UiMessages.isRtl("en-US,he-IL"));
+        equal(false, UiMessages.isRtl("zh-CN"));
         equal("Starting…", UiMessages.text("starting", "en-US"));
+        equal("正在启动…", UiMessages.text("starting", "zh-CN"));
+        equal("安装 base.apk 失败。", UiMessages.text("cp_install_failed", "zh-Hans", "base.apk"));
         equal("4 installed packages", UiMessages.text("package_count", "en-US", 4));
         equal("מפעיל…", UiMessages.text("starting", "he-IL"));
         equal("קובץ ההרחבה אינו קיים: C:\\שלום\\{1}.apk",
@@ -28,6 +35,6 @@ public class UiMessagesTest {
             UiMessages.text("microg_missing", "he");
             throw new AssertionError("Missing arguments must fail");
         } catch (IllegalArgumentException expected) { }
-        System.out.println("PASS: UI language selection, Hebrew, RTL, fallback and literal arguments");
+        System.out.println("PASS: UI language selection, Hebrew, Chinese, RTL, fallback and literal arguments");
     }
 }

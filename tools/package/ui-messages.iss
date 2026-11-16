@@ -20,7 +20,18 @@ he.setup_aurora=התקנת חנות אפליקציות (Aurora Store)
 he.setup_control_panel=לוח הבקרה של גשר
 he.setup_installing_webview2=מתקין את Microsoft Edge WebView2...
 he.setup_configuring_microg=מגדיר שירותי Google Play ויישומים...
+zh.setup_webview=安装 Microsoft Edge WebView2 运行时（Android 应用的网页视图需要它）
+zh.setup_readme=Gesher 说明
+zh.setup_apk=Android 应用（Gesher）
+zh.setup_bundle=Android 应用包（Gesher）
+zh.setup_run=用 Gesher 运行
+zh.setup_microg=安装 Google Play 服务支持（microG）
+zh.setup_aurora=安装应用商店（Aurora Store）
+zh.setup_control_panel=Gesher 控制中心
+zh.setup_installing_webview2=正在安装 Microsoft Edge WebView2…
+zh.setup_configuring_microg=正在配置 Google Play 服务与应用…
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{userprograms}\Gesher Apps"
 Type: filesandordirs; Name: "{userprograms}\יישומי גשר"
+Type: filesandordirs; Name: "{userprograms}\Gesher 应用"

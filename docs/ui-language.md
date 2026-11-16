@@ -1,10 +1,12 @@
 # Gesher's interface language
 
-Gesher's own interface supports Hebrew and English. It follows Windows'
+Gesher's own interface supports Hebrew, English and Simplified Chinese. It
+follows Windows'
 language preferences automatically, in order (the user's preferred languages
 for apps and websites in Windows Settings, followed by Windows display language
 preferences), matching the language portion of BCP 47 tags (`he-IL`, `he`, and
-the legacy `iw` alias all select Hebrew). If none of the preferred languages is
+the legacy `iw` alias all select Hebrew; `zh-CN`, `zh-Hans` and `zh` select
+Chinese). If none of the preferred languages is
 supported, English is used. Regional number and date settings do not override
 the language preference.
 
@@ -26,7 +28,10 @@ Hebrew and use the existing `SystemLocale` configuration.
 
 The Windows installer and uninstaller use Inno Setup's bundled English/Hebrew
 translations, with Hebrew RTL layout and translated Gesher-specific tasks and
-Explorer commands. Building requires Inno Setup 6.5 or later (Hebrew is bundled).
+Explorer commands, plus a vendored Simplified Chinese translation
+(`tools/package/ChineseSimplified.isl`, MIT, from the Inno Setup translation
+project) because Inno Setup ships no Chinese messages of its own. Building
+requires Inno Setup 6.5 or later (Hebrew is bundled).
 Setup selects the Windows UI language on each run, without a language prompt.
 Installed shell entries are refreshed by running Setup after changing Windows'
 display language. The runtime reads Windows preferences on launch; its existing

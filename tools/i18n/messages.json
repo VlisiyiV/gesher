@@ -5,733 +5,916 @@
     },
     "he": {
       "rtl": true
+    },
+    "zh": {
+      "rtl": false
     }
   },
   "messages": {
-    "chooser_title": {"en": "Gesher accounts", "he": "גשר — בחירת חשבון"},
-    "chooser_prompt": {"en": "Choose an account for this application:", "he": "בחר חשבון עבור יישום זה:"},
-    "chooser_select": {"en": "Select", "he": "בחירה"},
-    "chooser_cancel": {"en": "Cancel", "he": "ביטול"},
-    "chooser_add": {"en": "Add account", "he": "הוספת חשבון"},
+    "chooser_title": {"en": "Gesher accounts", "he": "גשר — בחירת חשבון", "zh": "Gesher 账户"},
+    "chooser_prompt": {"en": "Choose an account for this application:", "he": "בחר חשבון עבור יישום זה:", "zh": "为此应用选择一个账户："},
+    "chooser_select": {"en": "Select", "he": "בחירה", "zh": "选择"},
+    "chooser_cancel": {"en": "Cancel", "he": "ביטול", "zh": "取消"},
+    "chooser_add": {"en": "Add account", "he": "הוספת חשבון", "zh": "添加账户"},
     "install_request": {
       "en": "Install or update Android application \u2068{0}\u2069 (version \u2068{1}\u2069)?\nThis approval applies to this installation only.",
-      "he": "להתקין או לעדכן את יישום Android \u2068{0}\u2069 (גרסה \u2068{1}\u2069)?\nהאישור חל על התקנה זו בלבד."
+      "he": "להתקין או לעדכן את יישום Android \u2068{0}\u2069 (גרסה \u2068{1}\u2069)?\nהאישור חל על התקנה זו בלבד.",
+      "zh": "要安装或更新 Android 应用 \u2068{0}\u2069（版本 \u2068{1}\u2069）吗？\n此授权仅对本次安装有效。"
     },
     "removal_request": {
       "en": "Remove Android application \u2068{0}\u2069 (version \u2068{1}\u2069)?\nIts app data will be deleted. This approval applies to this removal only.",
-      "he": "להסיר את יישום Android \u2068{0}\u2069 (גרסה \u2068{1}\u2069)?\nגם נתוני היישום יימחקו. האישור חל על הסרה זו בלבד."
+      "he": "להסיר את יישום Android \u2068{0}\u2069 (גרסה \u2068{1}\u2069)?\nגם נתוני היישום יימחקו. האישור חל על הסרה זו בלבד.",
+      "zh": "要移除 Android 应用 \u2068{0}\u2069（版本 \u2068{1}\u2069）吗？\n其应用数据将被删除。此授权仅对本次移除有效。"
     },
     "starting": {
       "en": "Starting…",
-      "he": "מפעיל…"
+      "he": "מפעיל…",
+      "zh": "正在启动…"
     },
     "brand": {
       "en": "Gesher",
-      "he": "גשר"
+      "he": "גשר",
+      "zh": "Gesher"
     },
     "android_app": {
       "en": "Android app",
-      "he": "יישום Android"
+      "he": "יישום Android",
+      "zh": "Android 应用"
     },
     "run_app": {
       "en": "{0} (Android app, Gesher)",
-      "he": "{0} (יישום Android, גשר)"
+      "he": "{0} (יישום Android, גשר)",
+      "zh": "{0}（Android 应用，Gesher）"
     },
     "url_protocol": {
       "en": "URL:{0} ({1}, Gesher)",
-      "he": "URL:{0} ({1}, גשר)"
+      "he": "URL:{0} ({1}, גשר)",
+      "zh": "URL:{0}（{1}，Gesher）"
     },
     "permission_title": {
       "en": "Gesher permission request",
-      "he": "גשר — בקשת הרשאה"
+      "he": "גשר — בקשת הרשאה",
+      "zh": "Gesher 权限请求"
     },
     "permission_prefix": {
       "en": "Allow the Android application ",
-      "he": "לאפשר ליישום Android ‏"
+      "he": "לאפשר ליישום Android ‏",
+      "zh": "是否允许 Android 应用 "
     },
     "permission_middle": {
       "en": " to use these permissions?\n\n",
-      "he": " להשתמש בהרשאות הבאות?\n\n"
+      "he": " להשתמש בהרשאות הבאות?\n\n",
+      "zh": " 使用以下权限？\n\n"
     },
     "account_title": {
       "en": "Gesher account access",
-      "he": "גשר — גישה לחשבון"
+      "he": "גשר — גישה לחשבון",
+      "zh": "Gesher 账户访问"
     },
     "account_prefix": {
       "en": "Allow this Android application to access an account token?\n\nApplication: ",
-      "he": "לאפשר ליישום Android זה לקבל אסימון גישה לחשבון?\n\nיישום: "
+      "he": "לאפשר ליישום Android זה לקבל אסימון גישה לחשבון?\n\nיישום: ",
+      "zh": "是否允许此 Android 应用访问账户令牌？\n\n应用："
     },
     "account_name": {
       "en": "\nAccount: ",
-      "he": "\nחשבון: "
+      "he": "\nחשבון: ",
+      "zh": "\n账户："
     },
     "account_token": {
       "en": "\nToken type: ",
-      "he": "\nסוג אסימון: "
+      "he": "\nסוג אסימון: ",
+      "zh": "\n令牌类型："
     },
     "camera_name": {
       "en": "Gesher Camera",
-      "he": "מצלמת גשר"
+      "he": "מצלמת גשר",
+      "zh": "Gesher 相机"
     },
     "camera_take": {
       "en": "Take photo",
-      "he": "צילום תמונה"
+      "he": "צילום תמונה",
+      "zh": "拍照"
     },
     "camera_cancel": {
       "en": "Cancel",
-      "he": "ביטול"
+      "he": "ביטול",
+      "zh": "取消"
     },
     "no_device": {
       "en": "no Gesher device is running",
-      "he": "סביבת גשר אינה פועלת"
+      "he": "סביבת גשר אינה פועלת",
+      "zh": "没有正在运行的 Gesher 设备"
     },
     "device_stopped": {
       "en": "the Gesher device {0} stopped",
-      "he": "סביבת גשר {0} נעצרה"
+      "he": "סביבת גשר {0} נעצרה",
+      "zh": "Gesher 设备 {0} 已停止"
     },
     "same_drive": {
       "en": "{0} must be on drive {1}, with Gesher.",
-      "he": "{0} חייב להיות בכונן {1}, שבו מותקן גשר."
+      "he": "{0} חייב להיות בכונן {1}, שבו מותקן גשר.",
+      "zh": "{0} 必须位于 {1} 盘，与 Gesher 在同一盘符。"
     },
     "binder_failed": {
       "en": "binderd did not complete its connection handshake",
-      "he": "שירות התקשורת לא השלים את יצירת החיבור"
+      "he": "שירות התקשורת לא השלים את יצירת החיבור",
+      "zh": "binderd 未完成连接握手"
     },
     "server_logs": {
       "en": "the system server's logs are in {0}",
-      "he": "יומני שרת המערכת נמצאים ב־{0}"
+      "he": "יומני שרת המערכת נמצאים ב־{0}",
+      "zh": "系统服务的日志位于 {0}"
     },
     "usage": {
       "en": "usage: ",
-      "he": "שימוש: "
+      "he": "שימוש: ",
+      "zh": "用法："
     },
     "failed": {
       "en": "failed: {0}",
-      "he": "הפעולה נכשלה: {0}"
+      "he": "הפעולה נכשלה: {0}",
+      "zh": "失败：{0}"
     },
     "launch_failed": {
       "en": "The Android application could not be opened.\n\n{0}",
-      "he": "לא ניתן לפתוח את יישום ה־Android.\n\n{0}"
+      "he": "לא ניתן לפתוח את יישום ה־Android.\n\n{0}",
+      "zh": "无法打开该 Android 应用。\n\n{0}"
     },
     "install_update_incompatible": {
       "en": "The application ⁨{0}⁩ is already installed, but signed with a different signing key than this file.\n\nTo install this file, first remove the installed application (in the Gesher Control Center, or: gesher-app uninstall {0}). Its app data will be deleted.",
-      "he": "היישום ⁨{0}⁩ כבר מותקן, אבל חתום במפתח חתימה שונה מזה של הקובץ הזה.\n\nכדי להתקין את הקובץ, יש להסיר קודם את היישום המותקן (בלוח הבקרה של גשר, או: gesher-app uninstall {0}). נתוני היישום יימחקו."
+      "he": "היישום ⁨{0}⁩ כבר מותקן, אבל חתום במפתח חתימה שונה מזה של הקובץ הזה.\n\nכדי להתקין את הקובץ, יש להסיר קודם את היישום המותקן (בלוח הבקרה של גשר, או: gesher-app uninstall {0}). נתוני היישום יימחקו.",
+      "zh": "应用 \u2068{0}\u2069 已安装，但签名密钥与此文件不同。\n\n要安装此文件，请先卸载已安装的应用（在 Gesher 控制中心操作，或执行：gesher-app uninstall {0}）。其应用数据将被删除。"
     },
     "install_bad_signature": {
       "en": "The signature of ⁨{0}⁩ does not verify: the file was changed after it was signed, or it is damaged.",
-      "he": "החתימה של ⁨{0}⁩ אינה תקינה: הקובץ שונה אחרי שנחתם, או שהוא פגום."
+      "he": "החתימה של ⁨{0}⁩ אינה תקינה: הקובץ שונה אחרי שנחתם, או שהוא פגום.",
+      "zh": "\u2068{0}\u2069 的签名无法验证：文件在签名后被修改，或已损坏。"
     },
     "install_bad_split_signature": {
       "en": "The parts of ⁨{0}⁩ are not all signed with the same key.",
-      "he": "חלקי היישום ⁨{0}⁩ אינם חתומים כולם באותו מפתח."
+      "he": "חלקי היישום ⁨{0}⁩ אינם חתומים כולם באותו מפתח.",
+      "zh": "\u2068{0}\u2069 的各个部分并非使用同一密钥签名。"
     },
     "uninstalled": {
       "en": "uninstalled {0}",
-      "he": "היישום {0} הוסר"
+      "he": "היישום {0} הוסר",
+      "zh": "已卸载 {0}"
     },
     "not_installed": {
       "en": "{0} is not installed",
-      "he": "היישום {0} אינו מותקן"
+      "he": "היישום {0} אינו מותקן",
+      "zh": "{0} 未安装"
     },
     "not_installed_hint": {
       "en": "{0} is not installed (gesher-app install APK)",
-      "he": "היישום {0} אינו מותקן (להתקנה: gesher-app install APK)"
+      "he": "היישום {0} אינו מותקן (להתקנה: gesher-app install APK)",
+      "zh": "{0} 未安装（gesher-app install APK）"
     },
     "not_installed_url": {
       "en": "{0} is not installed: {1} goes nowhere",
-      "he": "היישום {0} אינו מותקן: לא ניתן לפתוח את {1}"
+      "he": "היישום {0} אינו מותקן: לא ניתן לפתוח את {1}",
+      "zh": "{0} 未安装：{1} 无法打开"
     },
     "launching": {
       "en": "launching the installed package {0}",
-      "he": "מפעיל את היישום המותקן {0}"
+      "he": "מפעיל את היישום המותקן {0}",
+      "zh": "正在启动已安装的包 {0}"
     },
     "unchanged": {
       "en": "{0} is installed and unchanged ({1})",
-      "he": "היישום {0} כבר מותקן ללא שינויים ({1})"
+      "he": "היישום {0} כבר מותקן ללא שינויים ({1})",
+      "zh": "{0} 已安装且未发生变化（{1}）"
     },
     "installed": {
       "en": "installed {0} (version {1}) in {2}",
-      "he": "היישום {0} הותקן (גרסה {1}) ב־{2}"
+      "he": "היישום {0} הותקן (גרסה {1}) ב־{2}",
+      "zh": "已安装 {0}（版本 {1}）到 {2}"
     },
     "updated": {
       "en": "updated {0} (version {1}) in {2}",
-      "he": "היישום {0} עודכן (גרסה {1}) ב־{2}"
+      "he": "היישום {0} עודכן (גרסה {1}) ב־{2}",
+      "zh": "已更新 {0}（版本 {1}）到 {2}"
     },
     "package_count": {
       "en": "{0} installed packages",
-      "he": "מספר היישומים המותקנים: {0}"
+      "he": "מספר היישומים המותקנים: {0}",
+      "zh": "已安装 {0} 个包"
     },
     "package_details": {
       "en": "package:{0} version {1} ({2}) {3}, {4} activities, {5} services, {6} providers",
-      "he": "package:{0} גרסה {1} ({2}) {3}, {4} פעילויות, {5} שירותים, {6} ספקי תוכן"
+      "he": "package:{0} גרסה {1} ({2}) {3}, {4} פעילויות, {5} שירותים, {6} ספקי תוכן",
+      "zh": "包：{0} 版本 {1}（{2}）{3}，{4} 个 Activity，{5} 个服务，{6} 个 Provider"
     },
     "no_file": {
       "en": "no such file: {0}",
-      "he": "הקובץ אינו קיים: {0}"
+      "he": "הקובץ אינו קיים: {0}",
+      "zh": "没有该文件：{0}"
     },
     "server_stopped": {
       "en": "the system server is no longer running",
-      "he": "שרת המערכת הפסיק לפעול"
+      "he": "שרת המערכת הפסיק לפעול",
+      "zh": "系统服务已不再运行"
     },
     "server_lost": {
       "en": "warning: lost communication with system server after repeated failures: {0}",
-      "he": "אזהרה: הקשר עם שרת המערכת אבד לאחר כישלונות חוזרים: {0}"
+      "he": "אזהרה: הקשר עם שרת המערכת אבד לאחר כישלונות חוזרים: {0}",
+      "zh": "警告：多次失败后与系统服务失去联系：{0}"
     },
     "connected": {
       "en": "connected to the running Gesher device {0} (system server pid {1})",
-      "he": "התחבר לסביבת גשר הפעילה {0} (מזהה תהליך שרת המערכת: {1})"
+      "he": "התחבר לסביבת גשר הפעילה {0} (מזהה תהליך שרת המערכת: {1})",
+      "zh": "已连接到正在运行的 Gesher 设备 {0}（系统服务进程 {1}）"
     },
     "cleaning": {
       "en": "cleaning up the Gesher device {0}: its system server is gone or does not answer",
-      "he": "מנקה את סביבת גשר {0}: שרת המערכת נעצר או שאינו מגיב"
+      "he": "מנקה את סביבת גשר {0}: שרת המערכת נעצר או שאינו מגיב",
+      "zh": "正在清理 Gesher 设备 {0}：其系统服务已退出或无响应"
     },
     "device_starting": {
       "en": "starting the Gesher device {0} (logs in {1})",
-      "he": "מפעיל את סביבת גשר {0} (יומנים ב־{1})"
+      "he": "מפעיל את סביבת גשר {0} (יומנים ב־{1})",
+      "zh": "正在启动 Gesher 设备 {0}（日志位于 {1}）"
     },
     "device_started": {
       "en": "started the Gesher device {0}: binderd pid {1}, servicemanager pid {2}, system server pid {3}",
-      "he": "סביבת גשר {0} הופעלה: מזהי תהליכים — תקשורת {1}, מנהל שירותים {2}, שרת המערכת {3}"
+      "he": "סביבת גשר {0} הופעלה: מזהי תהליכים — תקשורת {1}, מנהל שירותים {2}, שרת המערכת {3}",
+      "zh": "已启动 Gesher 设备 {0}：binderd 进程 {1}，servicemanager 进程 {2}，系统服务进程 {3}"
     },
     "server_not_ready": {
       "en": "the system server of the Gesher device {0} did not get ready (its log: {1})",
-      "he": "שרת המערכת של סביבת גשר {0} לא הצליח להתחיל (יומן: {1})"
+      "he": "שרת המערכת של סביבת גשר {0} לא הצליח להתחיל (יומן: {1})",
+      "zh": "Gesher 设备 {0} 的系统服务未能就绪（日志：{1}）"
     },
     "no_service": {
       "en": "no gesher service in the device's servicemanager",
-      "he": "שירות גשר אינו זמין במנהל השירותים"
+      "he": "שירות גשר אינו זמין במנהל השירותים",
+      "zh": "设备的 servicemanager 中没有 gesher 服务"
     },
     "proxy_windows": {
       "en": "no proxy of Gesher's own: Windows' settings",
-      "he": "לא הוגדר שרת מתווך בגשר: נעשה שימוש בהגדרות Windows"
+      "he": "לא הוגדר שרת מתווך בגשר: נעשה שימוש בהגדרות Windows",
+      "zh": "Gesher 不使用自己的代理：沿用 Windows 设置"
     },
     "every_app": {
       "en": "every app",
-      "he": "כל היישומים"
+      "he": "כל היישומים",
+      "zh": "所有应用"
     },
     "proxy_invalid": {
       "en": "{0}: not host:port, direct or windows",
-      "he": "{0}: יש להזין host:port, direct או windows"
+      "he": "{0}: יש להזין host:port, direct או windows",
+      "zh": "{0}：不是 host:port、direct 或 windows"
     },
     "proxy_saved": {
       "en": "proxy of {0}: {1} (app processes started from now on)",
-      "he": "שרת מתווך עבור {0}: {1} (יחול על יישומים שיופעלו מעתה)"
+      "he": "שרת מתווך עבור {0}: {1} (יחול על יישומים שיופעלו מעתה)",
+      "zh": "{0} 的代理：{1}（对之后启动的应用进程生效）"
     },
     "microg_choose": {
       "en": "Choose -Disable or -Remove.",
-      "he": "יש לבחור ‎-Disable או ‎-Remove."
+      "he": "יש לבחור ‎-Disable או ‎-Remove.",
+      "zh": "请选择 -Disable 或 -Remove。"
     },
     "microg_no_files": {
       "en": "Do not combine addon files with -Disable or -Remove.",
-      "he": "אין לשלב קובצי הרחבה עם ‎-Disable או ‎-Remove."
+      "he": "אין לשלב קובצי הרחבה עם ‎-Disable או ‎-Remove.",
+      "zh": "不要将附加组件文件与 -Disable 或 -Remove 一起使用。"
     },
     "microg_disabled": {
       "en": "microG disabled for the next Gesher device start. APKs and data are retained.",
-      "he": "microG הושבת החל מההפעלה הבאה של גשר. קובצי היישומים והנתונים נשמרו."
+      "he": "microG הושבת החל מההפעלה הבאה של גשר. קובצי היישומים והנתונים נשמרו.",
+      "zh": "下次启动 Gesher 设备时 microG 将被禁用。APK 与数据均保留。"
     },
     "microg_stop": {
       "en": "Stop this Gesher device before changing addon files (gesher-app shutdown).",
-      "he": "יש לעצור את סביבת גשר לפני שינוי קובצי הרחבה (gesher-app shutdown)."
+      "he": "יש לעצור את סביבת גשר לפני שינוי קובצי הרחבה (gesher-app shutdown).",
+      "zh": "更改附加组件文件前请先停止 Gesher 设备（gesher-app shutdown）。"
     },
     "microg_removed": {
       "en": "microG addon APKs removed. Application and account data are retained.",
-      "he": "קובצי ההרחבה של microG הוסרו. נתוני היישומים והחשבונות נשמרו."
+      "he": "קובצי ההרחבה של microG הוסרו. נתוני היישומים והחשבונות נשמרו.",
+      "zh": "已移除 microG 附加组件 APK。应用与账户数据均保留。"
     },
     "microg_pass_apk": {
       "en": "Pass -GmsCoreApk with an official microG Services APK.",
-      "he": "יש לציין ‎-GmsCoreApk עם קובץ APK רשמי של שירותי microG."
+      "he": "יש לציין ‎-GmsCoreApk עם קובץ APK רשמי של שירותי microG.",
+      "zh": "请用 -GmsCoreApk 传入官方的 microG Services APK。"
     },
     "microg_missing": {
       "en": "The addon file does not exist: {0}",
-      "he": "קובץ ההרחבה אינו קיים: {0}"
+      "he": "קובץ ההרחבה אינו קיים: {0}",
+      "zh": "附加组件文件不存在：{0}"
     },
     "microg_runtime": {
       "en": "Use the rebuilt Gesher runtime, or pass -RuntimeDir with its location.",
-      "he": "יש להשתמש בסביבת גשר המעודכנת, או לציין את מיקומה באמצעות ‎-RuntimeDir."
+      "he": "יש להשתמש בסביבת גשר המעודכנת, או לציין את מיקומה באמצעות ‎-RuntimeDir.",
+      "zh": "请使用重新构建的 Gesher 运行时，或用 -RuntimeDir 指定其位置。"
     },
     "microg_icu": {
       "en": "The Gesher runtime must contain exactly one ICU data file.",
-      "he": "סביבת גשר חייבת להכיל קובץ נתוני ICU אחד בדיוק."
+      "he": "סביבת גשר חייבת להכיל קובץ נתוני ICU אחד בדיוק.",
+      "zh": "Gesher 运行时中必须恰好包含一个 ICU 数据文件。"
     },
     "microg_timeout": {
       "en": "The offline microG APK verifier timed out.",
-      "he": "תם הזמן המוקצב לאימות המקומי של קובץ microG."
+      "he": "תם הזמן המוקצב לאימות המקומי של קובץ microG.",
+      "zh": "离线 microG APK 校验超时。"
     },
     "microg_verify_failed": {
       "en": "APK verification failed for {0}. Use the unmodified official release. {1}",
-      "he": "אימות קובץ היישום {0} נכשל. יש להשתמש בגרסה הרשמית ללא שינויים. {1}"
+      "he": "אימות קובץ היישום {0} נכשל. יש להשתמש בגרסה הרשמית ללא שינויים. {1}",
+      "zh": "{0} 的 APK 校验失败。请使用未经修改的官方版本。{1}"
     },
     "microg_verified": {
       "en": "Verified official microG addon: {0}",
-      "he": "הרחבת microG הרשמית אומתה: {0}"
+      "he": "הרחבת microG הרשמית אומתה: {0}",
+      "zh": "已校验官方 microG 附加组件：{0}"
     },
     "microg_staged": {
       "en": "microG staged. Start the Gesher device to load the verified addons.",
-      "he": "microG מוכן. יש להפעיל את סביבת גשר כדי לטעון את ההרחבות שאומתו."
+      "he": "microG מוכן. יש להפעיל את סביבת גשר כדי לטעון את ההרחבות שאומתו.",
+      "zh": "microG 已就绪。请启动 Gesher 设备以加载已校验的附加组件。"
     },
     "microg_settings": {
       "en": "Open microG Settings to configure Check-in, Cloud Messaging and accounts.",
-      "he": "יש לפתוח את הגדרות microG להגדרת רישום המכשיר, הודעות בענן וחשבונות."
+      "he": "יש לפתוח את הגדרות microG להגדרת רישום המכשיר, הודעות בענן וחשבונות.",
+      "zh": "打开 microG 设置以配置签到、云消息推送和账户。"
     },
     "setup_webview": {
       "en": "Install the Microsoft Edge WebView2 Runtime (Android apps' web views need it)",
-      "he": "התקנת Microsoft Edge WebView2 (נדרש להצגת תוכן אינטרנט ביישומי Android)"
+      "he": "התקנת Microsoft Edge WebView2 (נדרש להצגת תוכן אינטרנט ביישומי Android)",
+      "zh": "安装 Microsoft Edge WebView2 运行时（Android 应用的网页视图需要它）"
     },
     "setup_readme": {
       "en": "Gesher README",
-      "he": "גשר — מידע והוראות"
+      "he": "גשר — מידע והוראות",
+      "zh": "Gesher 说明"
     },
     "setup_apk": {
       "en": "Android app (Gesher)",
-      "he": "יישום Android (גשר)"
+      "he": "יישום Android (גשר)",
+      "zh": "Android 应用（Gesher）"
     },
     "setup_bundle": {
       "en": "Android app bundle (Gesher)",
-      "he": "חבילת יישום Android (גשר)"
+      "he": "חבילת יישום Android (גשר)",
+      "zh": "Android 应用包（Gesher）"
     },
     "setup_run": {
       "en": "Run with Gesher",
-      "he": "הפעלה באמצעות גשר"
+      "he": "הפעלה באמצעות גשר",
+      "zh": "用 Gesher 运行"
     },
     "setup_microg": {
       "en": "Install Google Play services support (microG)",
-      "he": "התקנת תמיכה בשירותי Google Play (microG)"
+      "he": "התקנת תמיכה בשירותי Google Play (microG)",
+      "zh": "安装 Google Play 服务支持（microG）"
     },
     "setup_aurora": {
       "en": "Install App Store (Aurora Store)",
-      "he": "התקנת חנות אפליקציות (Aurora Store)"
+      "he": "התקנת חנות אפליקציות (Aurora Store)",
+      "zh": "安装应用商店（Aurora Store）"
     },
     "setup_control_panel": {
       "en": "Gesher Control Center",
-      "he": "לוח הבקרה של גשר"
+      "he": "לוח הבקרה של גשר",
+      "zh": "Gesher 控制中心"
     },
     "setup_installing_webview2": {
       "en": "Installing Microsoft Edge WebView2...",
-      "he": "מתקין את Microsoft Edge WebView2..."
+      "he": "מתקין את Microsoft Edge WebView2...",
+      "zh": "正在安装 Microsoft Edge WebView2…"
     },
     "setup_configuring_microg": {
       "en": "Setting up Google Play services and applications...",
-      "he": "מגדיר שירותי Google Play ויישומים..."
+      "he": "מגדיר שירותי Google Play ויישומים...",
+      "zh": "正在配置 Google Play 服务与应用…"
     },
     "cp_title": {
       "en": "Gesher Control Center",
-      "he": "לוח הבקרה של גשר"
+      "he": "לוח הבקרה של גשר",
+      "zh": "Gesher 控制中心"
     },
     "cp_subtitle": {
       "en": "Applications and Google Play Services Management",
-      "he": "ניהול יישומים ושירותי Google Play"
+      "he": "ניהול יישומים ושירותי Google Play",
+      "zh": "应用与 Google Play 服务管理"
     },
     "cp_device_status": {
       "en": "Gesher Device",
-      "he": "מערכת גשר"
+      "he": "מערכת גשר",
+      "zh": "Gesher 设备"
     },
     "cp_device_running": {
       "en": "Device is running",
-      "he": "המערכת פועלת ברקע"
+      "he": "המערכת פועלת ברקע",
+      "zh": "设备正在运行"
     },
     "cp_device_stopped": {
       "en": "Device is stopped",
-      "he": "המערכת כבויה"
+      "he": "המערכת כבויה",
+      "zh": "设备已停止"
     },
     "cp_btn_start": {
       "en": "Start Device",
-      "he": "הפעל מערכת"
+      "he": "הפעל מערכת",
+      "zh": "启动设备"
     },
     "cp_btn_stop": {
       "en": "Stop Device",
-      "he": "כבה מערכת"
+      "he": "כבה מערכת",
+      "zh": "停止设备"
     },
     "cp_microg_title": {
       "en": "Google Play Services (microG)",
-      "he": "שירותי Google Play (microG)"
+      "he": "שירותי Google Play (microG)",
+      "zh": "Google Play 服务（microG）"
     },
     "cp_microg_desc": {
       "en": "Enables Google account login, Push notifications (FCM), and Maps/Location.",
-      "he": "מאפשר התחברות לחשבון גוגל, קבלת התראות Push ושירותי מיקום."
+      "he": "מאפשר התחברות לחשבון גוגל, קבלת התראות Push ושירותי מיקום.",
+      "zh": "启用 Google 账户登录、推送通知（FCM）以及地图/定位。"
     },
     "cp_microg_enabled": {
       "en": "Google Play services are enabled",
-      "he": "שירותי Google Play מופעלים ופעילים"
+      "he": "שירותי Google Play מופעלים ופעילים",
+      "zh": "Google Play 服务已启用"
     },
     "cp_microg_disabled": {
       "en": "Google Play services are not enabled",
-      "he": "שירותי Google Play אינם מופעלים"
+      "he": "שירותי Google Play אינם מופעלים",
+      "zh": "Google Play 服务未启用"
     },
     "cp_btn_enable_microg": {
       "en": "Enable Google Play (1-Click)",
-      "he": "הפעל שירותי Google (הגדרה אוטומטית)"
+      "he": "הפעל שירותי Google (הגדרה אוטומטית)",
+      "zh": "一键启用 Google Play"
     },
     "cp_btn_disable_microg": {
       "en": "Disable Google Play",
-      "he": "השבת שירותי Google"
+      "he": "השבת שירותי Google",
+      "zh": "禁用 Google Play"
     },
     "cp_btn_google_login": {
       "en": "Sign in to Google Account",
-      "he": "התחבר לחשבון Google"
+      "he": "התחבר לחשבון Google",
+      "zh": "登录 Google 账户"
     },
     "cp_btn_microg_settings": {
       "en": "microG Settings",
-      "he": "הגדרות microG"
+      "he": "הגדרות microG",
+      "zh": "microG 设置"
     },
     "cp_store_title": {
       "en": "App Store (Aurora Store)",
-      "he": "חנות אפליקציות (Aurora Store)"
+      "he": "חנות אפליקציות (Aurora Store)",
+      "zh": "应用商店（Aurora Store）"
     },
     "cp_store_desc": {
       "en": "Download and install Android applications directly without downloading APK files.",
-      "he": "חיפוש והורדת יישומי Android ישירות בלחיצה אחת, ללא צורך בהורדת קובצי APK."
+      "he": "חיפוש והורדת יישומי Android ישירות בלחיצה אחת, ללא צורך בהורדת קובצי APK.",
+      "zh": "直接下载并安装 Android 应用，无需手动下载 APK 文件。"
     },
     "cp_store_installed": {
       "en": "App Store is installed",
-      "he": "חנות האפליקציות מותקנת ומוכנה"
+      "he": "חנות האפליקציות מותקנת ומוכנה",
+      "zh": "应用商店已安装"
     },
     "cp_store_not_installed": {
       "en": "App Store is not installed",
-      "he": "חנות האפליקציות אינה מותקנת"
+      "he": "חנות האפליקציות אינה מותקנת",
+      "zh": "应用商店未安装"
     },
     "cp_btn_install_store": {
       "en": "Install App Store (1-Click)",
-      "he": "התקן חנות אפליקציות בלחיצה אחת"
+      "he": "התקן חנות אפליקציות בלחיצה אחת",
+      "zh": "一键安装应用商店"
     },
     "cp_btn_open_store": {
       "en": "Open App Store",
-      "he": "פתח את חנות האפליקציות"
+      "he": "פתח את חנות האפליקציות",
+      "zh": "打开应用商店"
     },
     "cp_apps_title": {
       "en": "Installed Applications",
-      "he": "אפליקציות מותקנות"
+      "he": "אפליקציות מותקנות",
+      "zh": "已安装的应用"
     },
     "cp_btn_install_apk": {
       "en": "Install APK from file…",
-      "he": "התקן אפליקציה מקובץ (APK)…"
+      "he": "התקן אפליקציה מקובץ (APK)…",
+      "zh": "从文件安装 APK…"
     },
     "cp_drag_drop_hint": {
       "en": "Drag and drop APK files here to install",
-      "he": "גרור ושחרר קובצי APK לכאן להתקנה מהירה"
+      "he": "גרור ושחרר קובצי APK לכאן להתקנה מהירה",
+      "zh": "将 APK 文件拖放到此处即可安装"
     },
     "cp_btn_launch": {
       "en": "Launch",
-      "he": "הפעל"
+      "he": "הפעל",
+      "zh": "启动"
     },
     "cp_btn_uninstall": {
       "en": "Uninstall",
-      "he": "הסר"
+      "he": "הסר",
+      "zh": "卸载"
     },
     "cp_uninstall_title": {
       "en": "Uninstall Application",
-      "he": "הסרת יישום"
+      "he": "הסרת יישום",
+      "zh": "卸载应用"
     },
     "cp_uninstall_confirm": {
       "en": "Are you sure you want to uninstall {0}?",
-      "he": "האם להסיר את היישום {0}?"
+      "he": "האם להסיר את היישום {0}?",
+      "zh": "确定要卸载 {0} 吗？"
     },
     "cp_uninstall_detail": {
       "en": "This application and its local data will be removed from Gesher.",
-      "he": "היישום וכל הנתונים המקומיים שלו יוסרו מגשר."
+      "he": "היישום וכל הנתונים המקומיים שלו יוסרו מגשר.",
+      "zh": "该应用及其本地数据将从 Gesher 中移除。"
     },
     "cp_uninstall_failed": {
       "en": "Failed to uninstall {0}.",
-      "he": "הסרת {0} נכשלה."
+      "he": "הסרת {0} נכשלה.",
+      "zh": "卸载 {0} 失败。"
     },
     "cp_install_failed": {
       "en": "Failed to install {0}.",
-      "he": "התקנת {0} נכשלה."
+      "he": "התקנת {0} נכשלה.",
+      "zh": "安装 {0} 失败。"
     },
     "cp_action_failed": {
       "en": "The operation failed (exit code {0}).",
-      "he": "הפעולה נכשלה (קוד יציאה {0})."
+      "he": "הפעולה נכשלה (קוד יציאה {0}).",
+      "zh": "操作失败（退出码 {0}）。"
     },
     "cp_action_finish": {
       "en": "Wait for the current operation to finish before closing.",
-      "he": "יש להמתין לסיום הפעולה הנוכחית לפני הסגירה."
+      "he": "יש להמתין לסיום הפעולה הנוכחית לפני הסגירה.",
+      "zh": "请等待当前操作完成后再关闭。"
     },
     "cp_dialog_ok": {
       "en": "OK",
-      "he": "אישור"
+      "he": "אישור",
+      "zh": "确定"
     },
     "cp_status_ready": {
       "en": "Ready",
-      "he": "מוכן"
+      "he": "מוכן",
+      "zh": "就绪"
     },
     "cp_status_working": {
       "en": "Working, please wait…",
-      "he": "מעבד, נא להמתין…"
+      "he": "מעבד, נא להמתין…",
+      "zh": "正在处理，请稍候…"
     },
     "cp_staging": {
       "en": "Configuring services…",
-      "he": "מגדיר שירותים…"
+      "he": "מגדיר שירותים…",
+      "zh": "正在配置服务…"
     },
     "cp_downloading": {
       "en": "Downloading {0}…",
-      "he": "מוריד את {0}…"
+      "he": "מוריד את {0}…",
+      "zh": "正在下载 {0}…"
     },
     "cp_installing": {
       "en": "Installing {0}…",
-      "he": "מתקין את {0}…"
+      "he": "מתקין את {0}…",
+      "zh": "正在安装 {0}…"
     },
     "files_all": {
       "en": "All files",
-      "he": "כל הקבצים"
+      "he": "כל הקבצים",
+      "zh": "所有文件"
     },
     "files_accepted": {
       "en": "Accepted files",
-      "he": "קבצים מתאימים"
+      "he": "קבצים מתאימים",
+      "zh": "支持的文件"
     },
     "done": {
       "en": "done",
-      "he": "הסתיים"
+      "he": "הסתיים",
+      "zh": "完成"
     },
     "detached": {
       "en": "{0} is running; the launcher does not wait for it (its output: {1})",
-      "he": "היישום {0} פועל; המפעיל אינו ממתין לו (הפלט שלו: {1})"
+      "he": "היישום {0} פועל; המפעיל אינו ממתין לו (הפלט שלו: {1})",
+      "zh": "{0} 正在运行；启动器不会等待它（其输出：{1}）"
     },
     "server_unexpected": {
       "en": "failed: the system server ended unexpectedly",
-      "he": "הפעולה נכשלה: שרת המערכת נסגר באופן בלתי צפוי"
+      "he": "הפעולה נכשלה: שרת המערכת נסגר באופן בלתי צפוי",
+      "zh": "失败：系统服务意外结束"
     },
     "no_exit_code": {
       "en": "failed: no OS exit code for the launched process: {0}",
-      "he": "הפעולה נכשלה: לא התקבל קוד יציאה לתהליך שהופעל: {0}"
+      "he": "הפעולה נכשלה: לא התקבל קוד יציאה לתהליך שהופעל: {0}",
+      "zh": "失败：无法获取所启动进程的操作系统退出码：{0}"
     },
     "process_ended": {
       "en": "the process of {0} ended (exit code {1})",
-      "he": "התהליך של {0} הסתיים (קוד יציאה {1})"
+      "he": "התהליך של {0} הסתיים (קוד יציאה {1})",
+      "zh": "{0} 的进程已结束（退出码 {1}）"
     },
     "process_failed": {
       "en": "failed: the app's process exited with code {0}",
-      "he": "הפעולה נכשלה: תהליך היישום נסגר עם קוד יציאה {0}"
+      "he": "הפעולה נכשלה: תהליך היישום נסגר עם קוד יציאה {0}",
+      "zh": "失败：应用进程退出，退出码 {0}"
     },
     "windows": {
       "en": "windows of {0}: {1}",
-      "he": "מצב חלונות של {0}: {1}"
+      "he": "מצב חלונות של {0}: {1}",
+      "zh": "{0} 的窗口：{1}"
     },
     "start_intent": {
       "en": "starting {0} through the system server",
-      "he": "מפעיל את {0} באמצעות שרת המערכת"
+      "he": "מפעיל את {0} באמצעות שרת המערכת",
+      "zh": "正在通过系统服务启动 {0}"
     },
     "in_task": {
       "en": " in task {0}",
-      "he": " במשימה {0}"
+      "he": " במשימה {0}",
+      "zh": "，任务 {0}"
     },
     "start_result": {
       "en": "startActivityAndWait: result {0}, {1}{2}",
-      "he": "תוצאת ההפעלה: {0}, {1}{2}"
+      "he": "תוצאת ההפעלה: {0}, {1}{2}",
+      "zh": "startActivityAndWait：结果 {0}，{1}{2}"
     },
     "no_activity": {
       "en": "no activity",
-      "he": "אין פעילות"
+      "he": "אין פעילות",
+      "zh": "无 Activity"
     },
     "no_new_activity": {
       "en": "no new activity",
-      "he": "אין פעילות חדשה"
+      "he": "אין פעילות חדשה",
+      "zh": "没有新的 Activity"
     },
     "timed_out": {
       "en": ", timed out",
-      "he": ", תם הזמן המוקצב"
+      "he": ", תם הזמן המוקצב",
+      "zh": "，已超时"
     },
     "start_failed": {
       "en": "the system server did not start {0}",
-      "he": "שרת המערכת לא הצליח להפעיל את {0}"
+      "he": "שרת המערכת לא הצליח להפעיל את {0}",
+      "zh": "系统服务未能启动 {0}"
     },
     "remove_task": {
       "en": "removing task {0} ({1})",
-      "he": "מסיר את המשימה {0} ({1})"
+      "he": "מסיר את המשימה {0} ({1})",
+      "zh": "正在移除任务 {0}（{1}）"
     },
     "proxy_launch": {
       "en": "proxy of {0}: {1}{2}",
-      "he": "שרת מתווך עבור {0}: {1}{2}"
+      "he": "שרת מתווך עבור {0}: {1}{2}",
+      "zh": "{0} 的代理：{1}{2}"
     },
     "next_process": {
       "en": " (from its next process: it is running)",
-      "he": " (יחול מההפעלה הבאה: היישום כבר פועל)"
+      "he": " (יחול מההפעלה הבאה: היישום כבר פועל)",
+      "zh": "（从其下一个进程开始：当前正在运行）"
     },
     "cannot_lock": {
       "en": "cannot take {0}",
-      "he": "לא ניתן לנעול את {0}"
+      "he": "לא ניתן לנעול את {0}",
+      "zh": "无法获取 {0}"
     },
     "binder_handshake": {
       "en": "the binder endpoint of the Gesher device {0} did not complete its connection handshake (binderd exit {1})",
-      "he": "שירות התקשורת של סביבת גשר {0} לא השלים את יצירת החיבור (קוד יציאה {1})"
+      "he": "שירות התקשורת של סביבת גשר {0} לא השלים את יצירת החיבור (קוד יציאה {1})",
+      "zh": "Gesher 设备 {0} 的 binder 端点未完成连接握手（binderd 退出码 {1}）"
     },
     "binder_ready": {
       "en": "binder endpoint accepted a protocol connection: {0} (pid {1})",
-      "he": "שירות התקשורת קיבל חיבור: {0} (מזהה תהליך {1})"
+      "he": "שירות התקשורת קיבל חיבור: {0} (מזהה תהליך {1})",
+      "zh": "binder 端点已接受协议连接：{0}（进程 {1}）"
     },
     "toast_not_registered": {
       "en": "toast activator: not registered ({0})",
-      "he": "מפעיל ההתראות אינו רשום ({0})"
+      "he": "מפעיל ההתראות אינו רשום ({0})",
+      "zh": "通知激活器：未注册（{0}）"
     },
     "toast_serving": {
       "en": "toast activator: serving {0} for one activation",
-      "he": "ממתין להפעלת התראה אחת: {0}"
+      "he": "ממתין להפעלת התראה אחת: {0}",
+      "zh": "通知激活器：为一次激活提供 {0}"
     },
     "toast_timeout": {
       "en": "toast activator: no activation came in 60 s",
-      "he": "לא התקבלה לחיצה על התראה בתוך 60 שניות"
+      "he": "לא התקבלה לחיצה על התראה בתוך 60 שניות",
+      "zh": "通知激活器：60 秒内没有激活"
     },
     "toast_click": {
       "en": "toast activator: a click on a toast of {0}: {1}",
-      "he": "התקבלה לחיצה על התראה של {0}: {1}"
+      "he": "התקבלה לחיצה על התראה של {0}: {1}",
+      "zh": "通知激活器：点击了 {0} 的通知：{1}"
     },
     "toast_sent": {
       "en": "toast activator: the click went to the Gesher device",
-      "he": "הלחיצה על ההתראה הועברה לסביבת גשר"
+      "he": "הלחיצה על ההתראה הועברה לסביבת גשר",
+      "zh": "通知激活器：点击已发送到 Gesher 设备"
     },
     "apps_folder": {
       "en": "Gesher Apps",
-      "he": "יישומי גשר"
+      "he": "יישומי גשר",
+      "zh": "Gesher 应用"
     },
     "device_status": {
       "en": "device {0}, system server pid {1}, up {2} s, {3} packages",
-      "he": "סביבה {0}, מזהה תהליך שרת המערכת {1}, פעילה {2} שניות, {3} יישומים"
+      "he": "סביבה {0}, מזהה תהליך שרת המערכת {1}, פעילה {2} שניות, {3} יישומים",
+      "zh": "设备 {0}，系统服务进程 {1}，已运行 {2} 秒，{3} 个包"
     },
     "activities_count": {
       "en": ", {0} activities",
-      "he": ", {0} פעילויות"
+      "he": ", {0} פעילויות",
+      "zh": "，{0} 个 Activity"
     },
     "package_count_one": {
       "en": "{0} installed package",
-      "he": "מספר היישומים המותקנים: {0}"
+      "he": "מספר היישומים המותקנים: {0}",
+      "zh": "已安装 {0} 个包"
     },
     "launch_not_identified": {
       "en": "the system server did not identify the launched process",
-      "he": "שרת המערכת לא זיהה את התהליך שהופעל"
+      "he": "שרת המערכת לא זיהה את התהליך שהופעל",
+      "zh": "系统服务未能识别所启动的进程"
     },
     "cp_update_title": {
       "en": "Gesher updates",
-      "he": "עדכוני גשר"
+      "he": "עדכוני גשר",
+      "zh": "Gesher 更新"
     },
     "cp_update_automatic": {
       "en": "Check for updates automatically",
-      "he": "בדיקת עדכונים אוטומטית"
+      "he": "בדיקת עדכונים אוטומטית",
+      "zh": "自动检查更新"
     },
     "cp_update_automatic_hint": {
       "en": "Check when the control center opens, at most once a day. Installation requires your approval.",
-      "he": "בודק בעת פתיחת לוח הבקרה, לכל היותר פעם ביום. התקנה דורשת את אישורך."
+      "he": "בודק בעת פתיחת לוח הבקרה, לכל היותר פעם ביום. התקנה דורשת את אישורך.",
+      "zh": "打开控制中心时检查，每天最多一次。安装需要你的确认。"
     },
     "cp_update_check": {
       "en": "Check for updates",
-      "he": "בדיקת עדכונים"
+      "he": "בדיקת עדכונים",
+      "zh": "检查更新"
     },
     "cp_update_download_install": {
       "en": "Download and install",
-      "he": "הורדה והתקנה"
+      "he": "הורדה והתקנה",
+      "zh": "下载并安装"
     },
     "cp_update_install": {
       "en": "Install update",
-      "he": "התקנת העדכון"
+      "he": "התקנת העדכון",
+      "zh": "安装更新"
     },
     "cp_update_cancel": {
       "en": "Cancel",
-      "he": "ביטול"
+      "he": "ביטול",
+      "zh": "取消"
     },
     "cp_update_notes": {
       "en": "Release notes",
-      "he": "מה חדש בגרסה"
+      "he": "מה חדש בגרסה",
+      "zh": "更新说明"
     },
     "cp_update_reopen": {
       "en": "Reopen control center",
-      "he": "פתיחת לוח הבקרה מחדש"
+      "he": "פתיחת לוח הבקרה מחדש",
+      "zh": "重新打开控制中心"
     },
     "cp_update_unknown": {
       "en": "Unknown",
-      "he": "לא ידועה"
+      "he": "לא ידועה",
+      "zh": "未知"
     },
     "cp_update_installed": {
       "en": "Installed version: \u2068{0}\u2069",
-      "he": "גרסה מותקנת: \u2068{0}\u2069"
+      "he": "גרסה מותקנת: \u2068{0}\u2069",
+      "zh": "已安装版本：\u2068{0}\u2069"
     },
     "cp_update_ready": {
       "en": "Updates come from stable GitHub releases.",
-      "he": "העדכונים מגיעים מהגרסאות היציבות שפורסמו ב־GitHub."
+      "he": "העדכונים מגיעים מהגרסאות היציבות שפורסמו ב־GitHub.",
+      "zh": "更新来自 GitHub 上的稳定版本。"
     },
     "cp_update_checking": {
       "en": "Checking for updates…",
-      "he": "בודק עדכונים…"
+      "he": "בודק עדכונים…",
+      "zh": "正在检查更新…"
     },
     "cp_update_check_failed": {
       "en": "Could not check for updates. Check your connection and try again.",
-      "he": "לא ניתן לבדוק עדכונים. בדוק את החיבור ונסה שוב."
+      "he": "לא ניתן לבדוק עדכונים. בדוק את החיבור ונסה שוב.",
+      "zh": "无法检查更新。请检查网络连接后重试。"
     },
     "cp_update_available": {
       "en": "Version \u2068{0}\u2069 is available.",
-      "he": "גרסה \u2068{0}\u2069 זמינה לעדכון."
+      "he": "גרסה \u2068{0}\u2069 זמינה לעדכון.",
+      "zh": "版本 \u2068{0}\u2069 可用。"
     },
     "cp_update_current": {
       "en": "Gesher is up to date.",
-      "he": "גשר מעודכן."
+      "he": "גשר מעודכן.",
+      "zh": "Gesher 已是最新版本。"
     },
     "cp_update_no_release": {
       "en": "There is no published stable release yet.",
-      "he": "עדיין לא פורסמה גרסה יציבה."
+      "he": "עדיין לא פורסמה גרסה יציבה.",
+      "zh": "尚未发布稳定版本。"
     },
     "cp_update_unknown_version": {
       "en": "This installation has no release version. Install a published release to enable updates.",
-      "he": "לא נמצאה גרסת הפצה להתקנה זו. התקן גרסה שפורסמה כדי לאפשר עדכונים."
+      "he": "לא נמצאה גרסת הפצה להתקנה זו. התקן גרסה שפורסמה כדי לאפשר עדכונים.",
+      "zh": "此安装没有版本号。安装已发布的版本后才能使用更新功能。"
     },
     "cp_update_downloading": {
       "en": "Downloading version \u2068{0}\u2069…",
-      "he": "מוריד את גרסה \u2068{0}\u2069…"
+      "he": "מוריד את גרסה \u2068{0}\u2069…",
+      "zh": "正在下载版本 \u2068{0}\u2069…"
     },
     "cp_update_download_failed": {
       "en": "The update could not be downloaded or verified. Please try again.",
-      "he": "לא ניתן להוריד או לאמת את העדכון. נסה שוב."
+      "he": "לא ניתן להוריד או לאמת את העדכון. נסה שוב.",
+      "zh": "无法下载或校验该更新。请重试。"
     },
     "cp_update_download_ready": {
       "en": "Version \u2068{0}\u2069 is ready to install.",
-      "he": "גרסה \u2068{0}\u2069 מוכנה להתקנה."
+      "he": "גרסה \u2068{0}\u2069 מוכנה להתקנה.",
+      "zh": "版本 \u2068{0}\u2069 已可安装。"
     },
     "cp_update_cancelling": {
       "en": "Canceling…",
-      "he": "מבטל…"
+      "he": "מבטל…",
+      "zh": "正在取消…"
     },
     "cp_update_cancelled": {
       "en": "Update operation canceled.",
-      "he": "פעולת העדכון בוטלה."
+      "he": "פעולת העדכון בוטלה.",
+      "zh": "更新操作已取消。"
     },
     "cp_update_confirm": {
       "en": "Install Gesher \u2068{0}\u2069 now?\nSetup will close running Gesher applications. Installed apps and their data will be kept.",
-      "he": "להתקין עכשיו את גשר \u2068{0}\u2069?\nההתקנה תסגור יישומי גשר פעילים. היישומים המותקנים והנתונים שלהם יישמרו."
+      "he": "להתקין עכשיו את גשר \u2068{0}\u2069?\nההתקנה תסגור יישומי גשר פעילים. היישומים המותקנים והנתונים שלהם יישמרו.",
+      "zh": "现在安装 Gesher \u2068{0}\u2069 吗？\n安装程序将关闭正在运行的 Gesher 应用。已安装的应用及其数据会保留。"
     },
     "cp_update_installing": {
       "en": "Preparing or installing the update… Complete the setup window when it opens.",
-      "he": "מכין ומתקין את העדכון… יש להשלים את הפעולות בחלון ההתקנה."
+      "he": "מכין ומתקין את העדכון… יש להשלים את הפעולות בחלון ההתקנה.",
+      "zh": "正在准备或安装更新…安装窗口出现后请完成安装。"
     },
     "cp_update_install_failed": {
       "en": "Setup did not finish successfully. You can retry the update.",
-      "he": "ההתקנה לא הושלמה בהצלחה. ניתן לנסות שוב."
+      "he": "ההתקנה לא הושלמה בהצלחה. ניתן לנסות שוב.",
+      "zh": "安装未成功完成。你可以重试更新。"
     },
     "cp_update_setup_cancelled": {
       "en": "Setup was canceled. You can retry the update.",
-      "he": "ההתקנה בוטלה. ניתן לנסות שוב."
+      "he": "ההתקנה בוטלה. ניתן לנסות שוב.",
+      "zh": "安装已取消。你可以重试更新。"
     },
     "cp_update_unverified": {
       "en": "Setup finished, but the installed version could not be verified. Reopen the control center and check again.",
-      "he": "ההתקנה הסתיימה, אך לא ניתן לאמת את הגרסה המותקנת. פתח מחדש את לוח הבקרה ובדוק שוב."
+      "he": "ההתקנה הסתיימה, אך לא ניתן לאמת את הגרסה המותקנת. פתח מחדש את לוח הבקרה ובדוק שוב.",
+      "zh": "安装已完成，但无法校验已安装的版本。请重新打开控制中心再检查。"
     },
     "cp_update_installed_success": {
       "en": "Version \u2068{0}\u2069 is installed. Reopen the control center to finish.",
-      "he": "גרסה \u2068{0}\u2069 מותקנת. פתח מחדש את לוח הבקרה לסיום."
+      "he": "גרסה \u2068{0}\u2069 מותקנת. פתח מחדש את לוח הבקרה לסיום.",
+      "zh": "版本 \u2068{0}\u2069 已安装。请重新打开控制中心以完成。"
     },
     "cp_update_exit_code": {
       "en": "Setup exit code: {0}",
-      "he": "קוד היציאה של תוכנית ההתקנה: {0}"
+      "he": "קוד היציאה של תוכנית ההתקנה: {0}",
+      "zh": "安装程序退出码：{0}"
     },
     "cp_update_finish_setup": {
       "en": "Finish or cancel setup before closing the control center.",
-      "he": "יש להשלים או לבטל את ההתקנה לפני סגירת לוח הבקרה."
+      "he": "יש להשלים או לבטל את ההתקנה לפני סגירת לוח הבקרה.",
+      "zh": "关闭控制中心前请先完成或取消安装。"
     },
     "cp_update_preferences_failed": {
       "en": "Could not save the update preference. The previous setting remains active.",
-      "he": "לא ניתן לשמור את הגדרת העדכונים. ההגדרה הקודמת נשארת בתוקף."
+      "he": "לא ניתן לשמור את הגדרת העדכונים. ההגדרה הקודמת נשארת בתוקף.",
+      "zh": "无法保存更新偏好设置。之前的设置仍然有效。"
     },
     "cp_update_notes_failed": {
       "en": "Could not open the release notes.",
-      "he": "לא ניתן לפתוח את פירוט השינויים בגרסה."
+      "he": "לא ניתן לפתוח את פירוט השינויים בגרסה.",
+      "zh": "无法打开更新说明。"
     },
     "cp_update_reopen_failed": {
       "en": "The update is installed. Close and reopen the control center from the Start menu.",
-      "he": "העדכון מותקן. סגור את לוח הבקרה ופתח אותו מחדש מתפריט התחל."
+      "he": "העדכון מותקן. סגור את לוח הבקרה ופתח אותו מחדש מתפריט התחל.",
+      "zh": "更新已安装。请关闭控制中心，并从开始菜单重新打开。"
     }
   }
 }

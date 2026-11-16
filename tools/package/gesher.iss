@@ -53,6 +53,10 @@ UsePreviousLanguage=no
 [Languages]
 Name: "en"; MessagesFile: "compiler:Default.isl"
 Name: "he"; MessagesFile: "compiler:Languages\Hebrew.isl"
+; ChineseSimplified.isl is vendored from the MIT-licensed Inno Setup translation
+; project (https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation),
+; because Inno Setup ships no Simplified Chinese messages of its own.
+Name: "zh"; MessagesFile: "ChineseSimplified.isl"
 
 #include "ui-messages.iss"
 
@@ -139,6 +143,7 @@ Source: "ui-messages.json"; DestDir: "{app}"; Flags: ignoreversion
 Source: "licenses\APKSIG-LICENSE.txt"; DestDir: "{app}\licenses"; Flags: ignoreversion
 Source: "README.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme; Languages: en
 Source: "README.he.txt"; DestDir: "{app}"; DestName: "README.txt"; Flags: ignoreversion isreadme; Languages: he
+Source: "README.zh.txt"; DestDir: "{app}"; DestName: "README.txt"; Flags: ignoreversion isreadme; Languages: zh
 Source: "gesher.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [INI]
